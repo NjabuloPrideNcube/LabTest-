@@ -1,15 +1,13 @@
 #include <iostream>
 #include<cstdlib>
 #include<ctime>
-
-
 using namespace std;
 
 int main()
 {
     cout << "Guess any number between the range of 1 - 100 " << endl;
 
-        int number  =0;
+        int number  = 0;
         srand(time(0));
         number = (rand()%100)+1;  //The Generated Random Number
         cout<<"The Generated Number "<<number<<endl;
@@ -22,7 +20,6 @@ int main()
         {
             cout<<"You won!!"<<endl;
             break;
-
         }
         else if (i==5)
         {
@@ -41,10 +38,8 @@ int main()
             {
             cout<<"Guess Lower"<<endl;
             }
-
         }
 
     }
-
     return 0;
 }
