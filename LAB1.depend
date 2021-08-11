@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1628712862 source:c:\users\pride\desktop\new folder\elen3009\soft-life\lab1\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
