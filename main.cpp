@@ -2,7 +2,7 @@
 #include<cstdlib>
 #include<ctime>
 using namespace std;
-
+// I accepted the request...
 int main()
 {
     cout << "Guess any number between the range of 1 - 100 " << endl;
@@ -43,3 +43,4 @@ int main()
     }
     return 0;
 }
+//Nice code
